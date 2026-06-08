@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Photo Scroller</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🌿 Nature Photo Scroller</h1>
+            <p>Explore the beauty of nature</p>
+        </header>
+
+        <div class="gallery-wrapper">
+            <div class="gallery" id="gallery">
+                <!-- Photos will be loaded here -->
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="prevBtn" class="nav-btn prev-btn">← Previous</button>
+            <div class="photo-counter">
+                <span id="currentPhoto">1</span> / <span id="totalPhotos">12</span>
+            </div>
+            <button id="nextBtn" class="nav-btn next-btn">Next →</button>
+        </div>
+
+        <div class="info-section">
+            <h2 id="photoTitle">Photo Title</h2>
+            <p id="photoDescription">Description will appear here</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
